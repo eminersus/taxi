@@ -1,0 +1,33 @@
+#Buttons
+NET buttonup        LOC = A8 ;  
+NET buttonleft         LOC = C4 ;   
+NET buttondown         LOC = C9 ;   
+NET buttonright        LOC = D9;  
+NET buttonreset			LOC = B8;
+
+#VGA monitor 
+NET RGB<5>      LOC =U7  ;  
+NET RGB<6>      LOC = V7  ; 
+NET RGB<7>      LOC = N7  ;  
+NET RGB<2>    LOC = P8  ;  
+NET RGB<3>    LOC = T6  ;   
+NET RGB<4>    LOC = V6 ; 
+NET RGB<0>     LOC = R7  ;  
+NET RGB<1>     LOC = T7  ;  
+
+NET Hsync         LOC = N6  ;   
+NET Vsync         LOC = P7 ;  
+net board_clk loc=V10 ; 
+
+Net SSEG_CA<0> LOC=T17; 
+Net SSEG_CA<1> LOC=T18; 
+Net SSEG_CA<2> LOC=U17; 
+Net SSEG_CA<3> LOC=U18;
+Net SSEG_CA<4> LOC=M14; 
+Net SSEG_CA<5> LOC=N14; 
+Net SSEG_CA<6> LOC=L14 ; 
+Net SSEG_CA<7> LOC=M13 ; 
+Net SSEG_AN<0> LOC=N16 ;
+Net SSEG_AN<1> LOC=N15; 
+Net SSEG_AN<2> LOC=P18; 
+Net SSEG_AN<3> LOC=P17; 
